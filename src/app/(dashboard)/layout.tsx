@@ -93,7 +93,7 @@ export default function DashboardLayout({
     } else {
       document.body.setAttribute('data-theme', 'light');
     }
-  }, [router]);
+  }, []);
 
   // Fetch unread notifications count
   useEffect(() => {
